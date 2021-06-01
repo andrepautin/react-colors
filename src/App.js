@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter } from "react-router-dom";
 import Routes from './Routes';
 
-function App({ colors }) {
+function App() {
   return (
     <div className="App">
       <BrowserRouter>
@@ -12,8 +12,8 @@ function App({ colors }) {
   );
 }
 
-App.defaultprops = {
-  colors: ['red','green','blue']
-}
+// App.defaultProps = {
+//   colors: ['red','green','blue']
+// }
 
 export default App;
